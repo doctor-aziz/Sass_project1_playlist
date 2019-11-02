@@ -222,4 +222,88 @@
         padding: 17px 30px;
         background-image: -webkit-linear-gradient(0deg, #4dabff 0%, #62ddff 100%); }
 
+/* ================ Styling Prices Area ================ */
+.prices {
+  padding: 120px 0;
+  text-align: center; }
+  .prices h1 {
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: "Heebo", sans-serif;
+    text-transform: uppercase; }
+  .prices p {
+    font-size: 14px;
+    color: #777;
+    max-width: 580px;
+    margin: auto;
+    margin-bottom: 15px; }
+  .prices .price_item {
+    margin-top: 35px;
+    font-family: "Roboto", sans-serif;
+    transition: .3s all ease-in-out; }
+    .prices .price_item .price_item_grp {
+      border: 1px solid #eee;
+      border-radius: 5px; }
+      .prices .price_item .price_item_grp .price_head {
+        background: #EDF6FF;
+        padding: 35px 0;
+        font-family: "Heebo", sans-serif; }
+        .prices .price_item .price_item_grp .price_head h4 {
+          font-size: 20px;
+          font-weight: 700; }
+      .prices .price_item .price_item_grp .price_body {
+        padding: 30px 0; }
+        .prices .price_item .price_item_grp .price_body .price_item_features {
+          list-style-type: none; }
+          .prices .price_item .price_item_grp .price_body .price_item_features li {
+            margin-bottom: 15px;
+            color: #777;
+            font-size: 14px; }
+      .prices .price_item .price_item_grp .price_footer {
+        margin: 0 40px 39px;
+        padding: 35px 0 40px;
+        background: #EDF6FF;
+        color: #777;
+        border-radius: 5px;
+        font-family: "Roboto", sans-serif; }
+        .prices .price_item .price_item_grp .price_footer h3 {
+          color: #222;
+          font-size: 72px;
+          position: relative;
+          font-weight: 700;
+          margin-bottom: 20px; }
+          .prices .price_item .price_item_grp .price_footer h3 .dollarSign {
+            padding-top: 15px;
+            font-size: 24px;
+            vertical-align: top;
+            display: inline-block; }
+          .prices .price_item .price_item_grp .price_footer h3 .month {
+            color: #777;
+            font-size: 14px;
+            text-align: left;
+            display: inline-block; }
+        .prices .price_item .price_item_grp .price_footer .getBtn {
+          text-decoration: none;
+          color: white;
+          border: none;
+          border-radius: 3px;
+          padding: 13px 35px;
+          font-size: 13px;
+          font-weight: 700;
+          background-image: -webkit-linear-gradient(0deg, #4dabff 0%, #62ddff 100%); }
+    .prices .price_item:hover .price_item_grp .price_head {
+      background-image: -webkit-linear-gradient(0deg, #4dabff 0%, #62ddff 100%);
+      color: white; }
+    .prices .price_item:hover .price_item_grp .price_footer {
+      background-image: -webkit-linear-gradient(0deg, #4dabff 0%, #62ddff 100%); }
+      .prices .price_item:hover .price_item_grp .price_footer h3 {
+        color: white; }
+        .prices .price_item:hover .price_item_grp .price_footer h3 .month {
+          color: white; }
+      .prices .price_item:hover .price_item_grp .price_footer .getBtn {
+        background: white;
+        color: #222; }
+
 /*# sourceMappingURL=main.css.map */
